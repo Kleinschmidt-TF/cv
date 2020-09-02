@@ -1,0 +1,180 @@
+\documentclass[margin,line]{resume}
+%\documentclass[margin,line,a4paper]{resume}
+\usepackage{times}
+
+\usepackage[usenames]{color}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tabularx}
+\itemsep=0in
+\parsep=0in
+\textwidth=6.0in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\topmargin -0.5in
+\textheight=11in
+
+\sloppy
+
+\newenvironment{list1}{
+  \begin{list}{}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\renewcommand{\baselinestretch}{1.05}
+
+% a new tabularx column type with centering
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%\pagestyle{fancy}
+%\fancyhf{} %delete the current section for header and footer
+%\fancyfoot[CE,CO]{\thepage\ of \pageref{LastPage}}
+%\renewcommand{\headrulewidth}{0.0pt}
+
+\name{Dr Tristan Friedrich KLEINSCHMIDT}
+
+\begin{document}
+
+\begin{resume}
+
+%\color[rgb]{0.15,0.15,0.15}
+%\pagecolor[rgb]{0.6,0.9,0.9}
+\section{\sc Nationality}
+Australian
+
+\section{\sc Date of Birth}
+30th of December 1983
+
+\section{\sc Contact Information}
+
+\parbox[t]{3.3in}{%
+371 Beach Road\\
+City Gate, \#15-03\\
+Singapore 199597}
+\parbox[t]{2.3in}{%
+{\it Phone}: {+65 9771 9781}  \\
+%{\it Fax}: +61 7 3138 1827  \\
+{\it Email}: {kleinschmidt\_tf@yahoo.com.au}
+{\it LinkedIn}: {www.linkedin.com/in/tristan-kleinschmidt-97947515}
+}
+
+%\section{\sc Objective}
+%To be actively involved in the research and development of speech- and speaker-based technologies, in particular their practical applications across a wide range of engineering operations. Longer-term plans are to advance into an academic position with responsibility for continuing the advanced research efforts of an institution in this field
+
+\section{\sc Skill summary}
+\begin{list2}
+\item Problem solving: find the right tool to solve the problem
+\item Communication: simplify complexity, and make it actionable
+\item Enablement: insights are only part of the consulting framework
+\item Team management: build a community
+\end{list2}
+
+\section{\sc Data science summary}
+\begin{list2}
+\item Discrete-event simulation (DES): 8yrs experience delivering DES for capital and operational decisions
+\item Mathematical optimization: three projects using mixed integer programming in industrial goods
+\item Machine learning (ML): one project delivered using ML pipelines for arrival prediction of bulk carriers
+\end{list2}
+
+\section{\sc Professional Experience}
+{\textbf{Consultant and Senior Data Scientist}} \hfill {\it February 2019 -- Current}\\
+\vspace{-0.85\baselineskip}
+\begin{list1}
+\item {\it BCG Gamma, The Boston Consulting Group, Singapore}
+%\item The responsibilities of this position include:
+\begin{list2}
+\item Gamma SEA lead for Industrial Goods and Augmented Analytics topics
+\item Discrete-event simulation of beneficiation plant: identified co-commitments to deliver volume targets for a \$70m investment 
+\item Machine learning prediction of iron ore vessel arrival time: 5-15\% precision increase over existing model
+\item Medium-term market price discovery for commodity market using mixed integer programming: potential \$90m profit increase
+\item Integrated sales and operations planning optimization for pulp and paper mills, palm oil refineries: identified up to 10\% margin improvement 
+\end{list2}
+\end{list1}
+
+
+{\textbf{Principal Consultant}} \hfill {\it 2012 -- 2019}\\
+\vspace{-0.85\baselineskip}
+\begin{list1}
+\item {\it The Simulation Group, Brisbane/Perth, Australia}
+%\item The responsibilities of this position include:
+\begin{list2}
+\item Simulation consulting projects regional team lead
+\item Copper concentrator design verification: defined maintenance and 3rd-party logistics requirements to achieve production targets for \$2b+ greenfield project
+\item Volume risk assessment of iron ore and coal capital projects: identified more robust infrastructure and product strategies worth additional \$400m+ NPV
+\item Capital expansion planning and operational improvements across iron ore, coal, copper and aluminium mining and processing, as well as public rail networks and brick making facilities
+\end{list2}
+\end{list1}
+
+{\textbf{Project Officer}} \hfill {\it 2010 -- 2012}\\
+\vspace{-0.85\baselineskip}
+\begin{list1}
+\item {\it Airports of the Future Project, Queensland University of Technology, Brisbane, Australia}
+%\item The responsibilities of this position include:
+\begin{list2}
+\item Managed collaboration of 30+ global research partners investigating the future of air travel
+\item Secured \$900k to establish Integrated Command \& Control Facility for Large-Scale Critical Infrastructure Management
+\item Team awarded 2011 Engineers Australia QLD Division Engineering Excellence Award for R\&D
+\item Published 3 peer-reviewed journal articles \& 5 international conference papers, including research focus on airport passenger simulation using agent-based modelling
+\end{list2}
+\end{list1}
+
+\section{\sc Data science software skills}
+\begin{list2}
+\item Languages: Python, Java, C/C++
+\item Simulation: AnyLogic, ARENA
+\item Optimization: Python (PuLP, pyomo), AIMMS, Gurobi
+\item Machine Learning: Python, sci-kit learn
+\item General: Git, SVN, Matlab, R, Tableau, SQL
+\end{list2}
+
+
+\newpage
+
+\section{\sc Education}
+{\bf Doctor of Philosophy (Elec Eng)} \hfill {\it 2006 -- 2010}\\\vspace{-0.85\baselineskip}
+\begin{list1}
+\item[] Queensland University of Technology, Brisbane, Australia
+\begin{list2}
+\item Dissertation Title: {\it ``Robust Speech Recognition using Speech Enhancement''}
+\item Principal Supervisor:  Professor Sridha Sridharan
+\item Associate Supervisor: Dr Michael Mason
+\item Key Research Areas: Automotive Speech Recognition and Speech Enhancement
+\end{list2}
+\end{list1}
+
+{\bf Graduate Certificate in Research Commercialisation} \hfill {\it March 2008 -- June 2008}\\\vspace{-0.85\baselineskip}
+\begin{list1}
+\item[] Queensland University of Technology, Brisbane, Australia
+\end{list1}
+
+{\bf Master of Engineering Science (Computer \& Communications)} \hfill {\it February 2005 -- January 2006}\\\vspace{-0.85\baselineskip}
+\begin{list1}
+\item[] Queensland University of Technology, Brisbane, Australia
+\end{list1}
+
+{\bf Bachelor of Engineering (Electrical \& Computer) with First Class Honours} \hfill {\it February 2002 -- July 2005} \\\vspace{-0.85\baselineskip}
+\begin{list1}
+\item[] Queensland University of Technology, Brisbane, Australia
+\item {\it Awarded the QUT University Medal, 2006.}
+\end{list1}
+
+\section{\sc Hobbies \& Community}
+\begin{list2}
+\item parkrun volunteer, St Lucia (QLD) \& Bishan (Singapore) parkruns, 2018 -- 2020.
+\item Running
+\item Travel
+\item Photography
+\end{list2}
+
+
+\end{resume}
+
+\end{document}
